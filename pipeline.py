@@ -21,7 +21,7 @@ class Pileline:
 
 
 if __name__ == "__main__":
-    ratio='8:1'
+    ratio='8:2'
     dataset='dataset/20180103.csv'
     ppl=Pileline(dataset,ratio)
     ppl.generateInputDataset()
